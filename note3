@@ -1,0 +1,17 @@
+aws
+mariyabd
+mongobd
+dynamobd
+postgres
+
+
+foreign key constraints 
+    no action
+    restrict
+    cascade
+    set NULL
+
+
+user has one profile 
+user has 
+graphql

@@ -1,0 +1,34 @@
+
+create database database_name;
+
+create table table_name;
+
+INSERT INTO table_name 
+(col_name, col_name)
+VALUES
+(val, val),
+(val, val),
+(val, val);
+
+select * from table_name;
+
+select distinct col_name from table_name; #to remove duplicate
+
+select * from table_name
+where city = "feni";  // between like in 
+
+update table_name
+set name = "omuk"
+where name = "tomuk";
+
+
+update table_name
+set col = valu 
+where condition;
+
+DELETE FROM doctor_info WHERE id = 5;
+
+
+
+
+
